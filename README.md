@@ -393,6 +393,25 @@ let big2 = 20000000000000000n;
 console.log(big1 + big2); // 30000000000000000n
 ```
 
+## 📚 Resources:
+
+Here are 5 very good Udemy courses covering integration with GitHub, JavaScript/Node.js, Python, and APIs — great for beginners and beyond:
+
+1. GitHub Ultimate: Master Git and GitHub - Beginner to Expert — Covers Git + GitHub from scratch including branches, pull requests, collaborating, tags/releases.
+   Udemy
+
+2. The Git & GitHub Bootcamp — Focuses on Git workflows and how GitHub fits in; good for understanding version control deeply.
+   Udemy
+
+3. API Development Fundamentals with Node.js & Postman — Teaches how to build REST APIs using Node.js, Express and testing with Postman.
+   Udemy
+
+4. Build and Deploy a NodeJS API — More practical; build a Node.js API and deploy to cloud.
+   Udemy
+
+5. FastAPI: Build RESTful, Fast APIs With Python — Python-focused, using FastAPI framework for building modern APIs.
+   Udemy Blog
+
 ## 🏛️ Project Architecture
 
 The architecture of the project will be divided into three stages: the structure of the project (HTML), the visual appearance (CSS), and the functionality of the task list (JavaScript).
