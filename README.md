@@ -80,6 +80,8 @@ In VS Code → Command Palette →
 
 ## About GitHub
 
+![Git & GitHub Beginner Diagram](assets/diagram.png)
+
 ### 🌐 What is GitHub?
 
 GitHub is an online platform used to **store**, **share**, and **collaborate on code**.  
@@ -114,14 +116,23 @@ Common branches:
 
 Visual Example:
 
-```
-main ----A----B----C
-feature-branch ----D----E
+```mermaid
+gitGraph
+    commit id: "Initial Commit"
+    commit id: "Setup Project"
+    branch feature/login
+    checkout feature/login
+    commit id: "Add Login UI"
+    commit id: "Add Login Logic"
+    checkout main
+    commit id: "Update Readme"
+    merge feature/login id: "Merge Login Feature"
+    commit id: "Release v1.0"
 ```
 
 ---
 
-## 🔧 Core Git Commands Explained
+### 🔧 Core Git Commands Explained
 
 ### `git add`
 
